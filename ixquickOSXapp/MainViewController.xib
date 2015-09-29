@@ -89,7 +89,7 @@
             <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
             <rect key="contentRect" x="335" y="299" width="966" height="557"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
-            <value key="minSize" type="size" width="640" height="480"/>
+            <value key="minSize" type="size" width="966" height="557"/>
             <view key="contentView" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" id="372" userLabel="Content View">
                 <rect key="frame" x="0.0" y="0.0" width="966" height="557"/>
                 <autoresizingMask key="autoresizingMask"/>
