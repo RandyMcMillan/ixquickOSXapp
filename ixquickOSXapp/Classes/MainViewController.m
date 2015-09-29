@@ -110,5 +110,22 @@
     return [super execute:command];
 }
 
+
+///WebView Buttons
+
+- (void)goBack:sender{
+
+    NSLog(@"goBack");
+
+}
+
+- (void)goForward:sender{
+    
+    NSLog(@"goForward");
+    
+}
+
+
+
 @end
 

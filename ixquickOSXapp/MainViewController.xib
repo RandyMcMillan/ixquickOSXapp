@@ -106,6 +106,26 @@
                             <outlet property="resourceLoadDelegate" destination="739" id="750"/>
                         </connections>
                     </webView>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4kT-l7-nW5">
+                        <rect key="frame" x="14" y="13" width="123" height="32"/>
+                        <buttonCell key="cell" type="push" title="&lt;&lt;&lt;" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TT1-PL-1N6">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" size="26" name=".HelveticaNeueDeskInterface-Regular"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="goBack:" target="-1" id="uDd-7V-wyx"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qg4-Ux-u3N">
+                        <rect key="frame" x="823" y="13" width="123" height="32"/>
+                        <buttonCell key="cell" type="push" title="&gt;&gt;&gt;" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="BO1-uk-WtR">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" size="26" name=".HelveticaNeueDeskInterface-Regular"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="goForward:" target="-1" id="b5u-e3-e3u"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="536" firstAttribute="trailing" secondItem="372" secondAttribute="trailing" id="719"/>
